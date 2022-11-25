@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./css/master.css">
+  <title>Львівська транспортна компанія</title>
+</head>
+<body>
+  <script type="text/javascript">
+  function navBurger() {
+  var x = document.getElementById("navRight");
+  if (x.style.display === "flex") {
+  x.style.display = "none";
+  } else {
+  x.style.display = "flex";
+  }
+  }
+  </script>
+  <div class="navbar">
+    <div class="navLeft">
+      <img src="./img/logo.jpg" alt="logo" class="navLogo">
+      <div class="navRightBurger">
+        <button class="navButton" onclick="navBurger()">
+            <i class="fas fa-hamburger fa-3x"></i>
+        </button>
+
+      </div>
+    </div>
+    <div class="navRight" id="navRight">
+      <div class="navButton"><a href="#info" class="navLink">Info</a></div>
+      <div class="navButton"><a href="#prices" class="navLink">Prices</a></div>
+      <div class="navButton"><a href="#faq" class="navLink">Faq</a></div>
+      <div class="navButton"><a href="#contacts" class="navLink">Contacts</a></div>
+    </div>
+
+  </div>
+  <div class="info" id="info">
+    <div class="infoRow">
+      <div class="infoElem">
+        <i class="fas fa-bus fa-10x"></i>
+        <div class="infoInfo">
+          <h1 class="infoHeader">Львівська транспортна компанія</h1>
+          <h3 class="infoTxt">Зручний сайт для зручних поїздок на зручних місцях. Тавтологічніше не буває</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="prices" id="prices">
+     <div class="pricesCol">
+       <div class="pricesLabel">
+         <h1 class="pricesLabelTxt">Тарифи</h1>
+       </div>
+
+
+       <div class="pricesSearchRow">
+         <div class="pricesSearch"><input type="text" class="searchInput" placeholder="Input ur willin`"></div>
+         <div class="pricesResults">
+           <div class="result1"><a href="./index2.html">Lviv - Izum</a></div>
+           <div class="result2"><a href="./index2.html">Kyiv - Alushta</a></div>
+           <div class="result3"><a href="./index2.html">Kharkiv - Equestria</a></div>
+           <div class="result4"><a href="./index2.html">Gorodok - Redgrave city</a></div>
+         </div>
+       </div>
+        </div>
+   </div>
+  <div class="faq" id="faq">
+    <div class="faqRow">
+      <div class="faqLabel">
+        <h1 class="faqLabelTxt">ПщЧЗ</h1>
+      </div>
+      <div class="faqQuestion">
+        <div class="faqQuestionLabel">Lorem ipsum dolor sit amet.</div>
+        <div class="faqQuestionArr"><i class="fas fa-chevron-down"></i></div>
+      </div>
+      <div class="faqAnswer">
+        <p class="faqAnswerTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis neque quidem dolore placeat quo unde totam rerum, officiis nobis vero.</p>
+      </div>
+      <div class="faqQuestion">
+        <div class="faqQuestionLabel">Lorem ipsum dolor sit amet.</div>
+        <div class="faqQuestionArr"><i class="fas fa-chevron-down"></i></div>
+      </div>
+      <div class="faqAnswer">
+        <p class="faqAnswerTxt"></p>
+      </div>
+      <div class="faqQuestion">
+        <div class="faqQuestionLabel">Lorem ipsum dolor sit amet.</div>
+        <div class="faqQuestionArr"><i class="fas fa-chevron-down"></i></div>
+      </div>
+      <div class="faqAnswer">
+        <p class="faqAnswerTxt"></p>
+      </div>
+      <div class="faqQuestion">
+        <div class="faqQuestionLabel">Lorem ipsum dolor sit amet.</div>
+        <div class="faqQuestionArr"><i class="fas fa-chevron-down"></i></div>
+      </div>
+      <div class="faqAnswer">
+        <p class="faqAnswerTxt"></p>
+      </div>
+      <div class="faqQuestion">
+        <div class="faqQuestionLabel">Lorem ipsum dolor sit amet.</div>
+        <div class="faqQuestionArr"><i class="fas fa-chevron-down used"></i></div>
+      </div>
+      <div class="faqAnswer" id="faqAnswerShow">
+        <p class="faqAnswerTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nam dolorem porro fugiat debitis itaque ab, perspiciatis quisquam fuga velit, optio veniam. Sint expedita dolores, ipsam optio minima, explicabo provident? Beatae accusamus doloribus earum totam quas, error ducimus blanditiis, saepe, illo ex provident sit omnis, autem asperiores assumenda nihil optio!</p>
+      </div>
+    </div>
+  </div>
+  <div class="contacts" id="contacts">
+    <div class="contactsCol">
+      <div class="contactsLabel">
+        <div class="contactsLabel">
+          <h1 class="contactsLabelTxt">cONTACTS</h1>
+        </div>
+      </div>
+
+
+      <div class="contactsContacts">
+        <div class="contactsElem">
+        <i class="fas fa-phone-square fa-lg"></i>
+          <p class="contactsTxt">+3339490293</p>
+        </div>
+        <div class="contactsElem">
+        <i class="fas fa-phone-square fa-lg"></i>
+          <p class="contactsTxt">support@LvivTrans.com</p>
+        </div>
+        <div class="contactsElem">
+        <i class="fas fa-phone-square fa-lg"></i>
+          <p class="contactsTxt">Teweksberry road 54</p>
+        </div>
+        <div class="contactsElem">
+        <i class="fas fa-phone-square fa-lg"></i>
+          <p class="contactsTxt">contactsInfo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footerLeft">
+      <div class="footerLeftElem">
+        <p class="footerLeftTxt">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="footerLeftElem">
+        <p class="footerLeftTxt">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      </div>
+    </div>
+    <div class="footerRight">
+      <div class="footerRightElem"><a href="" class="footerLink"><i class="fab fa-facebook-messenger"></i></a></div>
+      <div class="footerRightElem"><a href="" class="footerLink"><i class="fab fa-facebook-messenger"></i></a></div>
+      <div class="footerRightElem"><a href="" class="footerLink"><i class="fab fa-facebook-messenger"></i></a></div>
+      <div class="footerRightElem"><a href="" class="footerLink"><i class="fab fa-facebook-messenger"></i></a></div>
+    </div>
+  </div>
+</body>
+</html>
